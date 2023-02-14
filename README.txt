@@ -12,8 +12,9 @@ Toon Lighting/Shader:
 	plain white. I used this because you don't usually see a number of steps of light being used in real 2D animation. It's typically just the light shade and the shadow on
 	the object/character. Too many steps or detail can possibly take away or subtract the cartoonish effect.
 
-	I used the "ToonRamp" lighting model used in class and also added in Rim Lighting to the shader for the hit indication effect when the player runs into the enemy.The
-	"Rim Power" float is changed for a quick second when the enemy collides with the player, and gets reset after 0.5s using an IEnumerator.
+	I added in Rim Lighting to the toon shader for the hit indication effect when the player runs into the enemy.The rim light is red because this is typically the colour
+	used when something bad happens.The "Rim Power" float is changed for a quick second when the enemy collides with the player, and gets reset after 0.5s using an
+	IEnumerator.
 
 Other Scripts:
 	All other (Player movement and behaviour, and enemy movement) are scripts I've made. The enemy movement is simply lerping the enemies position between two points back
